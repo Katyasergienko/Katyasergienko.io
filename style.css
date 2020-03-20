@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff8f0;
+	width: 1120px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.photo1 img {
+	width: 1020px;
+}
+
+.mainHeader {
+	text-align: center;
+	width: 60%;
+}
+
+ .left,  .right {
+	width: 20%;
+} 
+
+.photo1 {
+	margin-bottom: 30px;
+}
+
+.left {
+	padding-left: 50px;
+}
+
+.right {
+	padding-right: 50px;
+	text-align:right; 
+}
+
+.header, .articleBox, .article_1, .article_2, .article_4 {
+	display: inline-flex;
+}
+
+.header {
+	border-bottom: 2px solid black;
+}
+
+.article {
+	margin: 20px 50px 20px 50px;
+}
+
+.side1 {
+	padding-right: 10px;
+} 
+
+.side2 {
+	padding-left: 10px;
+} 
+
+.photo2 {
+	width: 35%;
+}
+
+.photo2 img, .photo3 img, .header, .articleBox  {
+	width: 100%;
+}
+
+.secondArticleInfo {
+	width: 65%;
+	padding: 0 10px 0 20px; 
+}
+
+.article_2, .article_3, .side1, .side2 {
+	width: 50%;
+}
+
+.thirdArticleInfo {
+	width: 17.5%;
+}
+
+.photo3 {
+	width: 82.5%;
+	padding-left: 20px;
+}
+
+.articleText {
+	text-align: justify; 
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h2, h3 {
+	text-align: justify; 
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+h3 {
+	font-size: 23px;
+	color: white;
+}
+
+.blackBox {
+	background-color: black;
+	padding: 5px 10px 0 10px;
+}
+
