@@ -1,0 +1,76 @@
+.mainHeader {
+	text-align: center;
+	width: 60%;
+}
+
+.left,  .right {
+	width: 20%;
+} 
+
+.left {
+	padding-left: 50px;
+}
+
+.right {
+	padding-right: 50px;
+	text-align:right; 
+}
+
+.header {
+	display: inline-flex;
+	border-bottom: 2px solid black;
+	width: 100%;
+}
+
+h1 .mainTitle {
+	text-decoration: none;
+	color: black;
+}
+
+h4, .header p {
+	font-style: italic;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h1 .mainTitle, h2 .articleTitle, h3, h4 {
+	font-family: 'Playfair Display', serif;
+}
+
+h2 .articleTitle , h3 {
+	text-align: justify; 
+}
+
+h2 .articleTitle {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+h3 {
+	font-size: 23px;
+	color: white;
+}
+
+h1 .mainTitle:after, h2 .articleTitle:after {
+    background-color: #808080;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+h1 .mainTitle:hover, h2 .articleTitle:hover {
+	color: #808080;
+}
+
+h1 .mainTitle:hover:after, h2 .articleTitle:hover:after{
+    width: 100%;
+}
